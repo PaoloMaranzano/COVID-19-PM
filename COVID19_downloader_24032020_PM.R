@@ -55,5 +55,5 @@ write.csv(x = regions, file = paste0("COVID19_Italy_regional_",dates_c[1],"_",da
 
 ##### Storage in .xlsx
 write_xlsx(italy, path = paste0("COVID19_Italy_national_",dates_c[1],"_",dates_c[length(dates_c)],".xlsx"))
-write_xlsx(italy, path = paste0("COVID19_Italy_provincial_",dates_c[1],"_",dates_c[length(dates_c)],".xlsx"))
-write_xlsx(italy, path = paste0("COVID19_Italy_regional_",dates_c[1],"_",dates_c[length(dates_c)],".xlsx"))
+write_xlsx(provinces, path = paste0("COVID19_Italy_provincial_",dates_c[1],"_",dates_c[length(dates_c)],".xlsx"))
+write_xlsx(regions, path = paste0("COVID19_Italy_regional_",dates_c[1],"_",dates_c[length(dates_c)],".xlsx"))
